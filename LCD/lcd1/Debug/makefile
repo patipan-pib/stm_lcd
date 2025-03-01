@@ -61,8 +61,8 @@ all: main-build
 main-build: lcd1.elf secondary-outputs
 
 # Tool invocations
-lcd1.elf lcd1.map: $(OBJS) $(USER_OBJS) D:\stm32\LCD\lcd1\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "lcd1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\stm32\LCD\lcd1\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+lcd1.elf lcd1.map: $(OBJS) $(USER_OBJS) C:\Users\ddpat\Documents\GitHub\stm_lcd\LCD\lcd1\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "lcd1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\ddpat\Documents\GitHub\stm_lcd\LCD\lcd1\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lcd1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

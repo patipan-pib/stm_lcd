@@ -32,9 +32,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  C:/Users/ddpat/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi_ex.h \
  C:/Users/ddpat/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h \
  C:/Users/ddpat/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
- D:/stm32/LCD/lcd1/Drivers/ILI9341/ILI9341_Touchscreen.h \
- D:/stm32/LCD/lcd1/Drivers/ILI9341/ILI9341_STM32_Driver.h \
- D:/stm32/LCD/lcd1/Drivers/ILI9341/ILI9341_GFX.h
+ C:/Users/ddpat/Documents/GitHub/stm_lcd/LCD/lcd1/Drivers/ILI9341/ILI9341_Touchscreen.h \
+ C:/Users/ddpat/Documents/GitHub/stm_lcd/LCD/lcd1/Drivers/ILI9341/ILI9341_STM32_Driver.h \
+ C:/Users/ddpat/Documents/GitHub/stm_lcd/LCD/lcd1/Drivers/ILI9341/ILI9341_GFX.h
 ../Core/Inc/main.h:
 C:/Users/ddpat/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
@@ -69,6 +69,6 @@ C:/Users/ddpat/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HA
 C:/Users/ddpat/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi_ex.h:
 C:/Users/ddpat/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h:
 C:/Users/ddpat/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h:
-D:/stm32/LCD/lcd1/Drivers/ILI9341/ILI9341_Touchscreen.h:
-D:/stm32/LCD/lcd1/Drivers/ILI9341/ILI9341_STM32_Driver.h:
-D:/stm32/LCD/lcd1/Drivers/ILI9341/ILI9341_GFX.h:
+C:/Users/ddpat/Documents/GitHub/stm_lcd/LCD/lcd1/Drivers/ILI9341/ILI9341_Touchscreen.h:
+C:/Users/ddpat/Documents/GitHub/stm_lcd/LCD/lcd1/Drivers/ILI9341/ILI9341_STM32_Driver.h:
+C:/Users/ddpat/Documents/GitHub/stm_lcd/LCD/lcd1/Drivers/ILI9341/ILI9341_GFX.h:
